@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-21",
+  "learner": "LJS",
+  "currentModule": "M01 复杂度分析（基线摸底中）",
+  "mastery": {},
+  "reviewQueue": [],
+  "history": [],
+  "revisions": [],
+  "sideEvidence": [
+    {
+      "module": "M04 哈希表",
+      "ref": "repo@0d7ffa47b148ab6a220b9d9c1a35507c02ce1a70:01-js-basics/01-two-sum/solution.js:19-29",
+      "sha256": "54e3e8f094a9",
+      "observedAt": "2026-09-17~18",
+      "recordedAt": "2026-09-21",
+      "admissible": true,
+      "note": "旁证：Map 单次遍历求补数（need = target - nums[i]，命中即 return [map.get(need), i]）。不用于定级，仅编排参考。"
+    },
+    {
+      "module": "M04 哈希表",
+      "ref": "repo@0d7ffa47b148ab6a220b9d9c1a35507c02ce1a70:01-js-basics/containsDuplicate/solution.js:24-33",
+      "sha256": "dead5df2e1ee",
+      "observedAt": "2026-09-17~18",
+      "recordedAt": "2026-09-21",
+      "admissible": true,
+      "note": "旁证：Set 去重（has/add）。不用于定级，仅编排参考。"
+    },
+    {
+      "module": "M02 数组与字符串",
+      "ref": "repo@0d7ffa47b148ab6a220b9d9c1a35507c02ce1a70:01-js-basics/containsDuplicate/solution.js:24-33",
+      "sha256": "dead5df2e1ee",
+      "observedAt": "2026-09-17~18",
+      "recordedAt": "2026-09-21",
+      "admissible": true,
+      "note": "旁证：数组遍历 + 去重逻辑，证明该模块存在学习痕迹（故不得标『未接触』）。不用于定级。"
+    }
+  ]
+}
